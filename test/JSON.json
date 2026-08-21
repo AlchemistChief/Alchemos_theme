@@ -1,0 +1,27 @@
+{
+    "name": "Alchemos",
+    "version": 1.0,
+    "enabled": true,
+    "colors": {
+        "primary": "#FF3B5C",
+        "secondary": "#00C2A8",
+        "accent": "#FFD166"
+    },
+    "player": {
+        "id": 1337,
+        "level": 9000,
+        "health": 100.5,
+        "name": "Alchemos",
+        "active": true
+    },
+    "items": [
+        "sword",
+        "shield",
+        "potion"
+    ],
+    "nested": {
+        "deep": {
+            "value": null
+        }
+    }
+}

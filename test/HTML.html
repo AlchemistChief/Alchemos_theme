@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Alchemos Theme Test</title>
+
+    <meta
+        name="description"
+        content="Testing Alchemos"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+    <main
+        class="container"
+        id="app"
+        data-theme="dark"
+    >
+        <header class="hero">
+            <h1>Alchemos v1</h1>
+
+            <p>
+                High contrast development environment.
+            </p>
+        </header>
+
+        <section class="player">
+            <h2>Player</h2>
+
+            <img
+                src="avatar.png"
+                alt="Player avatar"
+            >
+
+            <button
+                type="button"
+                disabled
+            >
+                Attack
+            </button>
+        </section>
+    </main>
+
+    <script>
+        const player = {
+            name: "Alchemos",
+            level: 9000
+        };
+
+        console.log(player);
+    </script>
+</body>
+</html>

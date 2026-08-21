@@ -1,0 +1,53 @@
+{
+  "name": "alchemos",
+  "displayName": "Alchemos Theme",
+  "description": "Vibrant and high contrast color theme for VSCode.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlchemistChief/Alchemos_theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlchemistChief/Alchemos_theme/issues"
+  },
+  "homepage": "https://github.com/AlchemistChief/Alchemos_theme#readme",
+  "icon": "images/AlchemosCore.png",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "files": [
+    "themes/alchemos-amoled-dark.json",
+    "themes/alchemos-dark.json",
+    "themes/alchemos-light.json",
+    "images",
+    "CHANGELOG.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Alchemos AMOLED DARK",
+        "uiTheme": "vs-dark",
+        "path": "./themes/alchemos-amoled-dark.json"
+      },
+      {
+        "label": "Alchemos DARK",
+        "uiTheme": "vs-dark",
+        "path": "./themes/alchemos-dark.json"
+      },
+      {
+        "label": "Alchemos LIGHT",
+        "uiTheme": "vs",
+        "path": "./themes/alchemos-light.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package"
+  }
+}
