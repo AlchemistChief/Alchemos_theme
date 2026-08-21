@@ -1,6 +1,8 @@
 # Alchemos Theme
 
-A versatile and visually striking theme pack for Visual Studio Code, designed to accommodate any coding environment. As shown in the project structure from image_76ef24.png, this extension includes everything needed to colorize your favorite languages.
+A versatile and visually striking theme pack for Visual Studio Code, designed to accommodate any coding environment.
+
+> 📦 **Looking for the latest build?** You can download the compiled extension directly from the [Alchemos Releases](https://www.google.com/search?q=https://github.com/AlchemistChief/Alchemos_theme/releases/latest) page.
 
 ## 🎨 Theme Variants
 
