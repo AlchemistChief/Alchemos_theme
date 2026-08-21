@@ -4,6 +4,7 @@
   "description": "Vibrant and high contrast color theme for VSCode.",
   "version": "1.0.0",
   "license": "MIT",
+  "publisher": "alchemistchief",
   "repository": {
     "type": "git",
     "url": "https://github.com/AlchemistChief/Alchemos_theme.git"
@@ -16,6 +17,20 @@
   "engines": {
     "vscode": "^1.90.0"
   },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "light",
+    "amoled",
+    "high-contrast",
+    "vibrant",
+    "syntax",
+    "vscode-theme"
+  ],
   "files": [
     "themes/alchemos-amoled-dark.json",
     "themes/alchemos-dark.json",
@@ -24,9 +39,6 @@
     "CHANGELOG.md",
     "README.md",
     "LICENSE"
-  ],
-  "categories": [
-    "Themes"
   ],
   "contributes": {
     "themes": [
