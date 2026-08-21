@@ -1,61 +1,88 @@
 # Alchemos Theme
 
-A versatile and visually striking theme pack for Visual Studio Code, designed to accommodate any coding environment.
+A versatile VS Code theme pack with three variants for any coding environment.
 
-> 📦 **Looking for the latest build?** You can download the compiled extension directly from the [Alchemos Releases](https://www.google.com/search?q=https://github.com/AlchemistChief/Alchemos_theme/releases/latest) page.
+**Latest build:** [Download from Releases](https://github.com/AlchemistChief/Alchemos_theme/releases/latest)
 
-## 🎨 Theme Variants
+<p align="center">
+  <a href="images/preview_vscode.png" target="_blank">
+    <img src="images/preview_vscode.png" alt="VS Code UI Preview" width="800">
+  </a>
+</p>
 
-This extension includes three distinct themes to suit your preferences:
+## Variants
 
-* **Amoled Dark:** A high-contrast, high-saturation theme with deep black backgrounds. Perfect for OLED displays and late-night coding.
-* **Dark:** A balanced dark mode that is slightly lighter than the Amoled version, providing a softer look that reduces eye strain.
-* **Light:** A clean and crisp bright theme, self-explanatory and ideal for daytime or brightly lit environments.
+- **Amoled Dark** - High contrast, deep blacks. Ideal for OLED and night coding.
+- **Dark** - Softer dark mode. Easier on the eyes for long sessions.
+- **Light** - Clean and bright. Best for daytime or well-lit spaces.
 
-## ⚙️ Recommended Settings
+## Recommended Settings
 
-To get the most accurate syntax coloring, it is highly recommended to enable semantic highlighting. Add the following line to your VS Code `settings.json` file:
+Enable semantic highlighting for best syntax coloring:
 
 ```json
-{
-    "editor.semanticHighlighting.enabled": true
-}
-
+"editor.semanticHighlighting.enabled": true
 ```
 
-> **Note:** Depending on the language and the tokens provided by the language server, the visual difference might be subtle, but it ensures the highest accuracy for variable and function highlighting.
+Note: The visual difference varies by language, but it ensures accurate variable and function highlighting.
 
-## 📸 Previews
+## Previews
 
-*Click on the sections below to expand and view the high-resolution theme previews.*
+<details>
+<summary><b>Python</b></summary>
+<br>
+<img src="images/preview_python.png" alt="Python" width="800">
+</details>
 
-## 🛠️ Modifying & Building
+<details>
+<summary><b>JavaScript</b></summary>
+<br>
+<img src="images/preview_javascript.png" alt="JavaScript" width="800">
+</details>
 
-This project is open-source. You are welcome to modify the color palettes and build the extension yourself!
+<details>
+<summary><b>TypeScript</b></summary>
+<br>
+<img src="images/preview_typescript.png" alt="TypeScript" width="800">
+</details>
 
-**Prerequisites:**
-You will need [Node.js and npm](https://nodejs.org/) installed on your machine.
+<details>
+<summary><b>HTML</b></summary>
+<br>
+<img src="images/preview_html.png" alt="HTML" width="800">
+</details>
 
-**Build Instructions:**
+<details>
+<summary><b>CSS</b></summary>
+<br>
+<img src="images/preview_css.png" alt="CSS" width="800">
+</details>
 
-1. Clone or download this repository.
-2. Open your terminal and navigate to the root folder of the project.
-3. Install the VS Code Extension Manager (`vsce`) globally by running:
-```bash
-npm install -g @vscode/vsce
+<details>
+<summary><b>JSON</b></summary>
+<br>
+<img src="images/preview_json.png" alt="JSON" width="800">
+</details>
 
-```
+<details>
+<summary><b>Markdown</b></summary>
+<br>
+<img src="images/preview_markdown.png" alt="Markdown" width="800">
+</details>
 
+## Modifying & Building
 
-4. Package the theme into a runnable VS Code extension file by running:
-```bash
-npm run package
+Open source. Change the palette and build your own version.
 
-```
+**Prerequisites:** Node.js and npm.
 
+**Steps:**
+1. Clone the repo
+2. Navigate to the project root
+3. Install vsce: `npm install --save-dev @vscode/vsce`
+4. Package: `npm run package`
+5. Install the generated `.vsix` file via Extensions > `...` > **Install from VSIX**
 
-5. This will generate a `.vsix` file in your directory. You can install this file directly in VS Code by going to the Extensions view > clicking the `...` at the top right > **Install from VSIX**.
+## License
 
-## 📄 License
-
-This project is licensed under the **MIT License**. You are free to use, modify, distribute, and build upon this theme for your own projects.
+MIT. Free to use, modify, distribute.
