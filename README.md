@@ -65,6 +65,24 @@ Note: The visual difference varies by language, but it ensures accurate variable
 </details>
 
 <details>
+<summary><b>Powershell</b></summary>
+<br>
+<img src="images/preview_powershell.png" alt="Markdown" width="800">
+</details>
+
+<details>
+<summary><b>Batch</b></summary>
+<br>
+<img src="images/preview_batch.png" alt="Markdown" width="800">
+</details>
+
+<details>
+<summary><b>Bash</b></summary>
+<br>
+<img src="images/preview_bash.png" alt="Markdown" width="800">
+</details>
+
+<details>
 <summary><b>Markdown</b></summary>
 <br>
 <img src="images/preview_markdown.png" alt="Markdown" width="800">
