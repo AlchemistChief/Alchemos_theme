@@ -1,12 +1,18 @@
 # Changelog
 
-## 1.0.1 - Initial Release
+## 2.0.0 - Reworked LIGHT theme
+
+### Added
+- Reworked LIGHT theme
+  - Decreases brightness
+
+## 1.0.1 - New Previews
 
 ### Added
 - Added new previews for:
-    - batch
-    - bash
-    - powershell
+  - batch
+  - bash
+  - powershell
 
 ## 1.0.0 - Initial Release
 
