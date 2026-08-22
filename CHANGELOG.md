@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.0.1 - New Previews
+
+### Added
+- Added new previews for:
+  - VS Code - DARK
+  - VS Code - LIGHT
+
 ## 2.0.0 - Reworked LIGHT theme
 
 ### Added

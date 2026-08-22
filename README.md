@@ -4,11 +4,32 @@ A versatile VS Code theme pack with three variants for any coding environment.
 
 **Latest build:** [Download from Releases](https://github.com/AlchemistChief/Alchemos_theme/releases/latest)
 
-<p align="center">
-  <a href="images/preview_vscode.png" target="_blank">
-    <img src="images/preview_vscode.png" alt="VS Code UI Preview" width="800">
-  </a>
-</p>
+<details open>
+  <summary><b>AMOLED Theme</b></summary>
+  <p align="center">
+    <a href="images/preview_vscode_amoled.png" target="_blank">
+      <img src="images/preview_vscode_amoled.png" alt="VS Code AMOLED Preview" width="800">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><b>DARK Theme</b></summary>
+  <p align="center">
+    <a href="images/preview_vscode_dark.png" target="_blank">
+      <img src="images/preview_vscode_dark.png" alt="VS Code Dark Preview" width="800">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><b>LIGHT Theme</b></summary>
+  <p align="center">
+    <a href="images/preview_vscode_light.png" target="_blank">
+      <img src="images/preview_vscode_light.png" alt="VS Code Light Preview" width="800">
+    </a>
+  </p>
+</details>
 
 ## Variants
 
