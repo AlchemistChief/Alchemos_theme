@@ -21,23 +21,35 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 22
+          cache: 'npm'
 
       - name: Read version from package.json
         id: package-version
         uses: martinbeentjes/npm-get-version-action@v1.3.1
 
-      - name: Install dependencies & package
+      - name: Check if Tag Already Exists
+        id: check-tag
         run: |
-          npm install
+          TAG_NAME="v${{ steps.package-version.outputs.current-version }}"
+          if git rev-parse "$TAG_NAME" >/dev/null 2>&1; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Install dependencies & package VSIX
+        if: steps.check-tag.outputs.exists == 'false' || github.event_name == 'workflow_dispatch'
+        run: |
+          npm ci
           npx @vscode/vsce package
 
       - name: Create GitHub Release
+        if: steps.check-tag.outputs.exists == 'false' || github.event_name == 'workflow_dispatch'
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ steps.package-version.outputs.current-version}}
-          name: "Alchemos Theme v${{ steps.package-version.outputs.current-version}}"
+          tag_name: v${{ steps.package-version.outputs.current-version }}
+          name: "Alchemos Theme v${{ steps.package-version.outputs.current-version }}"
           files: '*.vsix'
           prerelease: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
